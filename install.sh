@@ -41,7 +41,7 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 mkdir -p ~/.fonts/adobe-fonts/source-code-pro
 git clone -b release https://github.com/adobe-fonts/source-code-pro.git ~/.fonts/adobe-fonts/source-code-pro
 # find ~/.fonts/ -iname '*.ttf' -exec echo \{\} \;
-fc-cache -f -v ~/.fonts/adobe-fonts/source-code-pro
+sudo fc-cache -f -v ~/.fonts/adobe-fonts/source-code-pro
 
 # Do symlinks
 ln -sf .zshrc       ~/.zsrc
@@ -50,8 +50,8 @@ ln -sf .git         ~/.git
 ln -sf .gitconfig   ~/.gitconfig
 ln -sf .irssi       ~/.irssi
 ln -sf .atom        ~/.atom
-ln -sf etc/power.d/powerman /etc/power.d/powerman
-touch /usr/lib/pm-utils/power.d/powerman
+sudo ln -sf etc/power.d/powerman /etc/power.d/powerman
+sudo touch /usr/lib/pm-utils/power.d/powerman
 
 echo "Finished installing everything together with dotfiles!"
 echo "Happy coding $USER"
