@@ -3,6 +3,5 @@ My dotfiles and installation script for different things I use (Currently specif
 
 # Installation
 ```
-chmod +x install.sh
 ./install.sh
 ```
