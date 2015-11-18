@@ -49,7 +49,7 @@ ZSH_THEME="gitster"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git emoji extract nyan screen)
+plugins=(git extract emoji nyan screen)
 
 # User configuration
 
@@ -83,3 +83,4 @@ export SSH_KEY_PATH="~/.ssh/dsa_id"
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias cls="clear"
+[ -s "/home/jalict/.dnx/dnvm/dnvm.sh" ] && . "/home/jalict/.dnx/dnvm/dnvm.sh" # Load dnvm
