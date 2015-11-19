@@ -3,7 +3,7 @@
 set -e
 
 # Install all the junk I need
-sudo apt-get -y install nodejs npm ubuntu-restricted-extras cmake bzr rpm wget git curl blender build-essential irssi screen chromium-browser git gvfs-bin pm-utils make automake powertop python thermald ttf-ancient-fonts unzip zsh qemu libunwind8 gettext libssl-dev libcurl3-dev zlib1g libicu-dev
+sudo apt-get -y install nodejs npm clang libsfml-dev ubuntu-restricted-extras cmake bzr rpm wget git curl blender build-essential irssi screen chromium-browser git gvfs-bin pm-utils make automake powertop python thermald ttf-ancient-fonts unzip zsh qemu libunwind8 gettext libssl-dev libcurl3-dev zlib1g libicu-dev
 sudo apt-get upgrade
 
 # Set zsh as default shell
